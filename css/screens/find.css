@@ -1,0 +1,122 @@
+.recommended-friends {
+  margin: 25px 0px 18px;
+  padding: 25px 0px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+
+.recommended-friends__title {
+  font-size: 15px;
+  color: var(--gray);
+}
+
+.recommended-friends span {
+  display: block;
+  margin: 110px 0px;
+  text-align: center;
+  font-size: 18px;
+  color: var(--gray);
+  font-weight: 500;
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--gray);
+  /* border-bottom: var(--main-border); */
+  padding-bottom: 18px;
+}
+
+.open-chat__header h3 {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.open-chat__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.open-chat__list:not(:last-child) {
+  border-bottom: var(--main-border);
+}
+
+.open-chat__title {
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.open-chat__hashtag {
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.open-chat__members {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.open-chat__members img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.open-chat__member-count {
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+/* .open-chat__members .divider {
+  width: 2px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0px 5px;
+} */
+
+.open-chat__members {
+  /* width: 2px;
+  height: 10px; */
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  /* margin: 0px 5px; */
+}
+
+.open-chat__member-count::after {
+  content: "|";
+  width: 2px;
+  height: 10px;
+  margin: 0px 5px;
+}
+
+.open-chat__member-status {
+  color: #f190ca;
+}
+
+.open-chat__photo {
+  position: relative;
+}
+
+.open-chat__photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.open-chat_heart-count {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+}
+.open-chat_heart-count span {
+  margin-left: 3px;
+}
