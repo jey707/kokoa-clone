@@ -5,7 +5,7 @@
   position: relative;
 }
 
-.user-component__subtitle::after {
+.badge-positon::after {
   content: "!";
   width: 15px;
   height: 15px;
